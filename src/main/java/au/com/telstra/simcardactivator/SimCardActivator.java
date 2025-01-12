@@ -7,7 +7,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SimCardActivator {
 
     public static void main(String[] args) {
+
         SpringApplication.run(SimCardActivator.class, args);
+        System.out.println("Started.....");
     }
 
 }
